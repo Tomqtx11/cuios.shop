@@ -1,0 +1,6 @@
+#!url=https://raw.githubusercontent.com/Tomqtx11/cuios.shop/refs/heads/main/cuios.shop.NetworkCheck.sgmodule
+#!name=cuios.shop — Locket Network Check
+#!desc=Chẩn đoán tạm thời: thêm HTTPS decryption cho API/public Locket để xem đường dẫn trong Proxy log. Không sửa request/body hoặc mở tính năng. Dùng cùng module Gold hiện tại.
+
+[MITM]
+hostname = %APPEND% api.locketcamera.com, public.locketcamera.com, firebaseremoteconfig.googleapis.com
