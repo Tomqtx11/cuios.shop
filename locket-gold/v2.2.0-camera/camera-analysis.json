@@ -1,0 +1,287 @@
+{
+  "source": "Locket.app/Locket — IPA mod 2.68.0",
+  "sha256": "65ba003d1afe68baace6ea13011c92f6ca3aaaf4525388eaa44abdeef0a6f06a",
+  "note": "Donor IPA mod 2.68.0, không phải executable App Store chưa sửa",
+  "types": [
+    {
+      "name": "Camera.Camera.State",
+      "address": "0x1021d7108",
+      "accessor": "0x100253bb0",
+      "fields": [
+        "_alert",
+        "_appActive",
+        "_cameraRollCrop",
+        "_cameraRollSecondaryFlashButtonEnabled",
+        "_cameraRollVideoUploadEnabled",
+        "_qrCodeScanningEnabled",
+        "_qrCodeResolutionInFlight",
+        "_cameraAuthorizationStatus",
+        "_captureButton",
+        "_captureButtonActive",
+        "_cancelFilterButtonActive",
+        "_capturedImage",
+        "_capturedImageOrientation",
+        "_capturedImageAlpha",
+        "_filterPicker",
+        "_filterPickerVisible",
+        "_filterSheet",
+        "_shopSheet",
+        "_filterPromoAcknowledged",
+        "_filterLoading",
+        "_cameraFilterConfig",
+        "_cameraFilterDiscardConfig",
+        "_shopFilterConfig",
+        "_capturedImageIsStreakRestoration",
+        "_bannerAdEnabled",
+        "_beginCaptureState",
+        "_cameraHiddenByPresentedView",
+        "_cameraRollUpsell",
+        "_captureFailures",
+        "_photoCaptureMeasurement",
+        "_captureState",
+        "_captureToolTip",
+        "_capturedResult",
+        "_celebrity",
+        "_controlsRotation",
+        "_enableSendButtonTimerFired",
+        "_featureGatesLoaded",
+        "_friendsLoading",
+        "_feed",
+        "_cameraFilter",
+        "_shopSelectedFilter",
+        "_cameraFilterSource",
+        "_cameraFilterPickedFromSheet",
+        "_filterGenerationFromUpsell",
+        "_shopSelectedFilterDisplay",
+        "_goldMaxDuration",
+        "_historyMomentsLoaded",
+        "_historyThumbnail",
+        "_keyboardShowing",
+        "_livePhotoSettings",
+        "_longerVideosEnabled",
+        "_livePhotoCaptureEnabled",
+        "_microphoneAuthorizationStatus",
+        "_microphoneButtonEnabled",
+        "_microphoneConfigured",
+        "_microphoneEnabled",
+        "_muteButton",
+        "_otherMusicPlaying",
+        "_sheetPresented_",
+        "_sheetPresented",
+        "_activeHomePanGestures",
+        "_overlay",
+        "_page",
+        "_paywall",
+        "_paywallPresentationState",
+        "_parentAction",
+        "_presentationState",
+        "_presentationContext",
+        "_cameraRollPreviewImages",
+        "_cameraRollPreviewVisible",
+        "_primaryButton",
+        "_progressBlur",
+        "_recipientPickerSelectedItems",
+        "_recipientPickerVisible",
+        "_removeAdsEnabled",
+        "_sendMomentInterstitialInterval",
+        "_streakRecoveryEnabled",
+        "_showingCapture",
+        "_viewScale",
+        "_isSendAnimationInProgress",
+        "_volumeButton",
+        "_volumeButtonEnabled",
+        "_zoomButton",
+        "_$observationRegistrar"
+      ]
+    },
+    {
+      "name": "Camera.kind1.CameraConfig",
+      "address": "0x1021d9794",
+      "accessor": "0x100315018",
+      "fields": [
+        "goldMaxDuration",
+        "srgb",
+        "telephoto",
+        "ultraWide",
+        "volumeButton"
+      ]
+    },
+    {
+      "name": "Camera.kind1.CameraConfig.CodingKeys",
+      "address": "0x1021d97b0",
+      "accessor": "0x100315988",
+      "fields": [
+        "goldMaxDuration",
+        "srgb",
+        "telephoto",
+        "ultraWide",
+        "volumeButton"
+      ]
+    },
+    {
+      "name": "FeatureGatesClient.FeatureGatesClient.State",
+      "address": "0x1021e4ba0",
+      "accessor": "0x10060b880",
+      "fields": [
+        "appIconPicker",
+        "cameraFilterSheet",
+        "cameraRoll",
+        "cameraTheme",
+        "customWidgetFrames",
+        "locketViews",
+        "longCaptions",
+        "longerVideo",
+        "prioritySupport",
+        "profileBadge",
+        "removeAds",
+        "streakRecovery",
+        "unlimitedFriends",
+        "video"
+      ]
+    },
+    {
+      "name": "PurchasesClient.FeatureGates",
+      "address": "0x10220cbc4",
+      "accessor": "0x100d370dc",
+      "fields": [
+        "appIconPicker",
+        "cameraFilterSheet",
+        "cameraTheme",
+        "cameraRoll",
+        "customWidgetFrames",
+        "locketViews",
+        "longCaptions",
+        "longerVideo",
+        "prioritySupport",
+        "profileBadge",
+        "removeAds",
+        "streakRecovery",
+        "unlimitedFriends",
+        "video"
+      ]
+    },
+    {
+      "name": "PurchasesClient.FeatureGates.CodingKeys",
+      "address": "0x10220cc34",
+      "accessor": "0x100d372ec",
+      "fields": [
+        "appIconPicker",
+        "cameraFilterSheet",
+        "cameraTheme",
+        "cameraRoll",
+        "customWidgetFrames",
+        "locketViews",
+        "longCaptions",
+        "longerVideo",
+        "prioritySupport",
+        "profileBadge",
+        "removeAds",
+        "streakRecovery",
+        "unlimitedFriends",
+        "video"
+      ]
+    }
+  ],
+  "string_locations": {
+    "camera_microphone_enabled": [
+      "0x102776950"
+    ],
+    "internal_camera_roll_video_upload_enabled": [
+      "0x102776920"
+    ],
+    "mh_mic_enabled_v16": [
+      "0x102772780"
+    ],
+    "goldMaxDuration": [
+      "0x102776976",
+      "0x1029b5271",
+      "0x1029b9b1e"
+    ],
+    "LocketConfig": [],
+    "LocketConfigBeta": [
+      "0x102783ae0"
+    ]
+  },
+  "references": [
+    {
+      "key": "mh_mic_enabled_v16 (Swift String bias -32)",
+      "adrp": "0x100229b70",
+      "address": "0x100229b74",
+      "target": "0x102772760",
+      "function": "0x100229258",
+      "function_end": "0x10022b598"
+    },
+    {
+      "key": "camera_microphone_enabled",
+      "adrp": "0x10022a148",
+      "address": "0x10022a14c",
+      "target": "0x102776950",
+      "function": "0x100229258",
+      "function_end": "0x10022b598"
+    },
+    {
+      "key": "mh_mic_enabled_v16",
+      "adrp": "0x10022a1ac",
+      "address": "0x10022a1b0",
+      "target": "0x102772780",
+      "function": "0x100229258",
+      "function_end": "0x10022b598"
+    },
+    {
+      "key": "internal_camera_roll_video_upload_enabled",
+      "adrp": "0x10022a30c",
+      "address": "0x10022a310",
+      "target": "0x102776920",
+      "function": "0x100229258",
+      "function_end": "0x10022b598"
+    },
+    {
+      "key": "internal_camera_roll_video_upload_enabled (Swift String bias -32)",
+      "adrp": "0x10022a3a0",
+      "address": "0x10022a3a4",
+      "target": "0x102776900",
+      "function": "0x100229258",
+      "function_end": "0x10022b598"
+    },
+    {
+      "key": "internal_camera_roll_video_upload_enabled",
+      "adrp": "0x10023e9a8",
+      "address": "0x10023e9ac",
+      "target": "0x102776920",
+      "function": "0x10023da38",
+      "function_end": "0x100244bfc"
+    },
+    {
+      "key": "internal_camera_roll_video_upload_enabled (Swift String bias -32)",
+      "adrp": "0x10023ea74",
+      "address": "0x10023ea78",
+      "target": "0x102776900",
+      "function": "0x10023da38",
+      "function_end": "0x100244bfc"
+    },
+    {
+      "key": "camera_microphone_enabled",
+      "adrp": "0x10023eb08",
+      "address": "0x10023eb0c",
+      "target": "0x102776950",
+      "function": "0x10023da38",
+      "function_end": "0x100244bfc"
+    },
+    {
+      "key": "mh_mic_enabled_v16 (Swift String bias -32)",
+      "adrp": "0x10023f8dc",
+      "address": "0x10023f8e0",
+      "target": "0x102772760",
+      "function": "0x10023da38",
+      "function_end": "0x100244bfc"
+    },
+    {
+      "key": "LocketConfigBeta",
+      "adrp": "0x1020460c0",
+      "address": "0x1020460c4",
+      "target": "0x102783ae0",
+      "function": "0x10204602c",
+      "function_end": "0x1020460f4"
+    }
+  ]
+}

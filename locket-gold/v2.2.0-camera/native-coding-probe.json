@@ -1,0 +1,101 @@
+{
+  "source": "Locket.app/Locket — IPA mod 2.68.0",
+  "limit": "Mã từ IPA mod 2.68.0; không phải test app gốc/iPhone hoặc JSONDecoder",
+  "camera_coding_keys_getter": "0x100315488",
+  "camera_coding_keys": [
+    {
+      "case": 0,
+      "value": "goldMaxDuration"
+    },
+    {
+      "case": 1,
+      "value": "srgb"
+    },
+    {
+      "case": 2,
+      "value": "telephoto"
+    },
+    {
+      "case": 3,
+      "value": "ultraWide"
+    },
+    {
+      "case": 4,
+      "value": "volumeButton"
+    }
+  ],
+  "gate_coding_keys_getter": "0x100d366d8",
+  "gate_coding_keys": [
+    {
+      "case": 0,
+      "value": "appIconPicker"
+    },
+    {
+      "case": 1,
+      "value": "cameraFilterSheet"
+    },
+    {
+      "case": 2,
+      "value": "cameraTheme"
+    },
+    {
+      "case": 3,
+      "value": "cameraRoll"
+    },
+    {
+      "case": 4,
+      "value": "customWidgetFrames"
+    },
+    {
+      "case": 5,
+      "value": "locketViews"
+    },
+    {
+      "case": 6,
+      "value": "longCaptions"
+    },
+    {
+      "case": 7,
+      "value": "longerVideo"
+    },
+    {
+      "case": 8,
+      "value": "prioritySupport"
+    },
+    {
+      "case": 9,
+      "value": "profileBadge"
+    },
+    {
+      "case": 10,
+      "value": "removeAds"
+    },
+    {
+      "case": 11,
+      "value": "streakRecovery"
+    },
+    {
+      "case": 12,
+      "value": "unlimitedFriends"
+    },
+    {
+      "case": 13,
+      "value": "video"
+    }
+  ],
+  "mode_raw_value_getter": "0x100d365b8",
+  "mode_raw_values": [
+    {
+      "case": 0,
+      "value": "disabled"
+    },
+    {
+      "case": 1,
+      "value": "enabled"
+    },
+    {
+      "case": 2,
+      "value": "subscriber"
+    }
+  ]
+}
