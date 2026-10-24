@@ -1,0 +1,10 @@
+#!url=https://raw.githubusercontent.com/Tomqtx11/cuios.shop/refs/heads/main/locket-gold/v2.0.0/cuios.shop.Diagnostic.sgmodule
+#!name=cuios.shop — Diagnostic
+#!desc=CustomerInfo phía client; không bao gồm video 60s, skin widget hoặc sửa giao diện IPA. Xem README.
+
+[Script]
+LocketGoldRequestV2 = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/[^/?#]+)\/?(\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Tomqtx11/cuios.shop/refs/heads/main/locket-gold/v2.0.0/LocketGold.js, argument=diagnostic=1, timeout=10
+LocketGoldResponseV2 = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/[^/?#]+)\/?(\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Tomqtx11/cuios.shop/refs/heads/main/locket-gold/v2.0.0/LocketGold.js, requires-body=true, max-size=1048576, argument=diagnostic=1, timeout=10
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com
